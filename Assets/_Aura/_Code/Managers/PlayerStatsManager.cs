@@ -46,6 +46,7 @@ public class PlayerStatsManager : MonoBehaviour
 
     public void GetCurrentPlayer(string _email, Action _gotPlayerSuccess, Action _gotPlayerError)
     {
+        //deprecated logic
        
         //foreach (var player in retrievedPlayers)
         //{
